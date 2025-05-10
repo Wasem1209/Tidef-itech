@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+  }
+  .branding h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  .branding p {
+    margin: 0;
+    font-size: 14px;
+    color: #b2dfdb;
+  }
+  
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #020208;
+    color: white;
+  }
+  
+  .social-links {
+    margin-bottom: 15px;
+  }
+  
+  .social-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+ 
+  .facebook {
+    background-color: #3b5998; 
+  }
+  
+  .x {
+    background-color: #1da1f2; 
+  }
+
+  .email {
+    cursor: rgb(241, 241, 244);
+    display: inline-flex;
+font-size: 16px;
+
+margin-top: 10px;
+  }
+  
+  .telegram {
+    background-color: #1da1f2;
+    align-items: center;
+    margin-left: 200px;
+  }
+  
+  .linkedin {
+    background-color: #0077b5; 
+  }
+  
+  .whatsapp {
+    background-color: #25d366; 
+  }
+  
+  
+  .social-circle:hover {
+    transform: scale(1.1); 
+    opacity: 0.8;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  
+  .footer-links span {
+    color: #757272;
+  }
+  
+  .footer-copy {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+
+  .menu {
+    position: absolute;
+    top: 50px;
+    right: 20px; 
+    margin-bottom: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-btn {
+    background-color: #000000;
+    color:  rgb(251, 98, 3);
+    border: none;
+    padding: 9px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    
+   
+  }
+  
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0 4px 20px  rgb(251, 98, 3);
+    z-index: 1000;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: rgb(251, 98, 3);
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+  }
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 7px 0;
+    }
+  
+    .navbar ul li {
+      margin: 5px 10px;
+    }
+  }
+  
+
+  .i-tech {
+    color:  rgb(251, 98, 3);
+  }
+  
+  
+/* Base - Mobile First (default styles for small screens) */
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Header/nav styles, drop-down, etc. */
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul {
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+
+  .dropdown-content {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .contact-box {
+    width: 80%;
+  }
+}

@@ -1,0 +1,158 @@
+.about-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-section {
+    margin-bottom: 40px;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p, .about-section ul {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .objective {
+    background: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  
+  /* Meet Our Team Section */
+  .team-section {
+    text-align: center;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #fff;
+  }
+  
+  .team-member {
+    background: #fff;
+    height: 380px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: calc(100vw 15px);
+    flex-direction: column;
+  }
+
+  @media (max-width: 400px){
+    .team-member {
+      background: #fff;
+      height: 380px;
+      width: 300px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: calc(100vw 15px);
+      flex-direction: column;
+  }
+  }
+
+  
+  .team-image {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+  }
+  
+  .team-member h4 {
+    font-size: 1.2rem;
+    color: #222;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: rgb(251, 108, 6);
+  }
+  
+  .h2-m {
+    color: rgb(251, 108, 6);
+  }
+
+  .h2-our-miss {
+    color: rgb(251, 108, 6);
+    margin-right: 20px;
+  }
+
+  .h2-ob {
+    color: rgb(251, 108, 6);
+  }
+
+  .board-section {
+    text-align: center;
+  }
+  
+  .board-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .board-member {
+    background: #fff;
+    height: 380px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: calc(100vw 15px)
+    
+  }
+
+  @media (max-width: 400px) {
+    .board-member {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: calc(100vw - 15px);
+      flex-direction: column;
+    }
+
+    
+  }
+
+  .board-image {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+  }
+  
+  .board-member h4 {
+    font-size: 1.2rem;
+    color: #222;
+  }
+  
+  .board-member p {
+    font-size: .9rem;
+    color: rgb(251, 108, 6);
+  }
+
+  .boar-of {
+    color: rgb(251, 108, 6);
+    font-weight: 200;
+  }
+
+  .mot {
+    color: rgb(251, 108, 6);
+  }
