@@ -1,8 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import { FaTelegram, FaEnvelope, FaCircleNotch, FaStackExchange, FaComputer, FaDesktop, FaTrain, FaAlignJustify, FaAvianex, FaAnchorCircleCheck, FaAndroid, FaRavelry, FaEthernet, FaDartLang, FaSearchengin} from 'react-icons/fa6';
+import {  FaComputer,  FaTrain,FaRavelry, FaEthernet, FaSearchengin} from 'react-icons/fa6';
 
-import "./Home.css"; // Link to your CSS file
+
+
+const items = [
+  {
+    title: "A special summer Bootscamp is coming up in July, 2025.",
+    name: "What to expert;",
+    frontend:"Front-end Web Development",
+    backend:"Back-end Web Development",
+    link:"",
+    Fullstack:"Full-stack Web Development",
+    analysis:"Data Analytics / Management",
+    cyber:"Cyber Security Science",
+  }
+
+  
+  
+]
+
+
+import "./Home.css";
 const Home = () => {
   return (
     <>
@@ -65,38 +84,72 @@ const Home = () => {
       Explore the future of intelligence! Our AI course will introduce you to the latest concepts and technologies in artificial intelligence. Discover the possibilities and applications of AI in various industries.</p>
       </div>
     </div>
-    <section className="top-c">
+    
+    <section className="gallery">
+      <div className="gallery-title">Gallery</div>
+      <div className="gallery-container">
+        <img src="/images/tat.jpeg" alt="" className="galleri" />
+      </div>
+    </section>
+    
+    
+    <div className="trend">
+      <div className="tren">
       <h4 className="trend">Trending Courses</h4>
       <ul>
-        <li>FrontEnd Development</li>
-        <li>BackEnd Development</li>
+        <li>FrontEnd Web Development</li>
+        <li>BackEnd Web Development</li>
         <li>Artificial Intelligent</li>
         <li>Data Analysis</li>
         <li>UI/UX Designing</li>
         <li>Full-Stack Development</li>
       </ul>
-    </section>
+      </div>
+    </div>
    
     
      <section className="features">
+      <h2 style={{fontStyle:"italic"}}>We are known for;</h2>
      <div class="feature">
             <img src="/images/quick.png" alt="Feature" className="trust" />
-            <h3>Fast Performance</h3>
-            <p>Experience lightning-fast processing with our technology.</p>
+            <h3 style={{color:'#3d358b'}}>Fast Performance</h3>
+            <p>Experience lightning-fast processing with our technology services.</p>
         </div>
              <div className="feature">
               <img src="/images/shield.png" alt="security" className="security" />
               <h3 className="trust">Trusted</h3>
-              <p>Your data is protected with top-tier security measures.</p>
+              <p>Your data is protected with top-tier security measures during our cost of collaboration and partnership.</p>
             </div>
             <div class="feature">
             <img src="/images/piece.png" alt="Feature" className="trust" />
-            <h3>Easy Integration</h3>
+            <h3 style={{color:'#3d358b'}}>Easy Integration</h3>
             <p>Seamlessly connect with your existing workflow.</p>
         </div>
         {/* support */}
             </section>
+        
+        
+
+        <section className="upcomingeven-section" style={{marginBottom: "110px"}}>
+          <h2 className="upcomingevent"><span style={{color:'#f35b04'}}>Up</span> <span style={{color:'#3d348b'}}>Coming</span> <span style={{color:'#f35b04'}}>Events</span></h2>
+          <div className="upcoming-container">
+            {items.map((items, index) => (
+              <div className="upcomingevent-t" key={index}>
+                <h4>{items.title}</h4>
+                <p>{items.name}</p>
+                <p>{items.frontend}</p>
+                <p>{items.backend}</p>
+                <p>{items.Fullstack}</p>
+                <p>{items.analysis}</p>
+                <p>{items.cyber}</p>
+                
+                </div>
+            ))}
+          </div>
           
+        <Link to="https://www.linkedin.com/in/tidef-itech-6877b1362/?trk=flagship3_open_to_hiring_creation_upsell&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B1eY4yYMAQ5eQiBHmDkUGQw%3D%3D"><button className=" boo">Reserve Space for Me</button></Link>
+       
+        </section>
     </>
   );
 };

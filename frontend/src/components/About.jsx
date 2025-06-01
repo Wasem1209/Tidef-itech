@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css"; // Ensure you style it professionally
+import "./About.css"; 
 
 
 const boardMembers = [
@@ -25,10 +25,17 @@ const teamMembers = [
     },
 
     {
+      name: "Rapheal Oryiman",
+      title: "Operation Support/Developer",
+      image: "/images/devo.jpg"
+    },
+
+    {
       name: "Acham Kenneth Omadi",
       title: "Operations Support",
       image: "/images/Omadi.jpg",
     },
+
     {
         name: "Wasem Philip",
         title: "Chief Technology Officer",
@@ -40,7 +47,7 @@ const About = () => {
   return (
     <div className="about-page">
         <p className="about-intro">
-  <strong><em>At Tidef I-tech,</em></strong>, we are committed to leveraging technology to drive innovation, 
+  <strong><em>At Tidef I-tech,</em></strong> we are committed to leveraging technology to drive innovation, 
   build successful careers, and provide top-tier digital services. Our goal is to 
   advance society through technology, empowering individuals and businesses with 
   the tools they need to thrive in the digital era.
