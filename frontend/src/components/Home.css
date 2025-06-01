@@ -1,6 +1,8 @@
 .home-container {
-  background-color: #090810;
-  
+ background-image: url(/images/modif.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   }
 
   
@@ -12,7 +14,7 @@
 }
   .hero-content {
     margin-top: 50px;
-    color: rgb(241, 244, 245);
+    color: rgb(235, 238, 239);
     text-align: center;
     text-decoration: italic;
     text-shadow: #f35b04;
