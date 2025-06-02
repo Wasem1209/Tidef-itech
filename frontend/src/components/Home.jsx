@@ -85,12 +85,7 @@ const Home = () => {
       </div>
     </div>
     
-    <section className="gallery">
-      <div className="gallery-title">Gallery</div>
-      <div className="gallery-container">
-        <img src="/images/tat.jpeg" alt="" className="galleri" />
-      </div>
-    </section>
+    
     
     
     <div className="trend">
@@ -107,9 +102,10 @@ const Home = () => {
       </div>
     </div>
    
-    
+    <section>
+    <h2 style={{fontStyle:"italic"}}className="known">We are known for;</h2>
+    </section>
      <section className="features">
-      <h2 style={{fontStyle:"italic"}}>We are known for;</h2>
      <div class="feature">
             <img src="/images/quick.png" alt="Feature" className="trust" />
             <h3 style={{color:'#3d358b'}}>Fast Performance</h3>
