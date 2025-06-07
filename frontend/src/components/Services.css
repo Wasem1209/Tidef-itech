@@ -6,5 +6,16 @@
     color: rgb(251, 108, 6);
 }
 
-/* support */
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graph-ic {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    padding-right: 8.5rem;
+    padding-bottom: 1rem;
+}
 

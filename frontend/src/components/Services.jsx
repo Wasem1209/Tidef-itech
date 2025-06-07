@@ -1,4 +1,4 @@
-import {  FaWhatsapp, FaEnvelope } from "react-icons/fa6";
+import {  FaWhatsapp, FaEnvelope, FaGraduationCap } from "react-icons/fa6";
 import "./Services.css";
 
 const Services = () => {
@@ -10,22 +10,75 @@ const Services = () => {
     </section>
     <h4 className="offer">What we offer!</h4>
     <p className="pr">You are always welcome at Tidef iTech, we offer the following services at affordable rate</p>
-    <ul>
-      <li>Cyber Cafe</li>
-      <li>Graphic Design</li>
-      <li>Website Development</li>
-      <li>Web Application</li>
-      <li>Workspace</li>
-      <li>E-payment</li>
-      <li>Internent Services</li>
-      <li>Online Registration</li>
-      <li>Event Printing</li>
-      <li>Consultation</li>
-      <li>Resume/Cv Compilation</li>
-    </ul>
+     
+    
+    <div className="services">
+      <div className="graphics">
+        <h2>Graphics designs</h2>
+        <p>Get your standout designs for all activities, from logos to brochures,with our expert graphics design services that brings your brand to life with creativity and precision.</p>
+      </div>
+      <div className="grap-p">
+        <img src="/images/4213056.png" alt="graphic icon" className="graph-ic" />
+      </div>
+    </div>
    
-        
-        
+    <div className="services">
+    <div className="grap-p">
+        <img src="/images/2645742.png" alt="graphic icon" className="graph-ic" />
+      </div>
+      <div className="graphics">
+        <h2>Web Application Development</h2>
+        <p>Take your business to the next level with our scalable and secure web application Development services, tailored to meet your unique needs and drive results.</p>
+      </div>
+    </div>
+    <div className="services">
+      <div className="graphics">
+        <h2>Cyber Cafe</h2>
+        <p>Get high-speed internet access and immersive gaming experiences at our state-of-the-art cyber cafe, perfet for work, play, or socializing friends.</p>
+      </div>
+      <div className="grap-p">
+        <img src="/images/4661316.png" alt="graphic icon" className="graphic" />
+      </div>
+    </div>
+    <div className="services">
+    <div className="grap-p">
+        <img src="/images/6188094.png" alt="graphic icon" className="graph-ic" />
+      </div>
+      <div className="graphics">
+        <h2>Website Development </h2>
+        <p>Launch your online presence with our custom websites Development services, designed to drive engagement, conversion, and growth for your business with responsive and user friendly design.</p>
+      </div>
+      
+    </div>
+    <div className="services">
+    
+      <div className="graphics">
+        <h2>Work Space</h2>
+        <p>Boost your productivity and collaboration with our comfortable, flexible, and well-equipped workspaces, designed to help you acheive your goals and succeed.</p>
+      </div>
+      <div className="grap-p">
+        <img src="/images/3063849.png" alt="Work space icon" className="graphic" />
+      </div>
+    </div>
+    <div className="services">
+    <div className="grap-p">
+        <img src="/images/1625576.png" alt="graphic icon" className="graph-ic" />
+      </div>
+      <div className="graphics">
+        <h2>E-payment</h2>
+        <p>Make secure,fast, and convenient online payment with our e-payment services, designed to simplify transaction and enhance your digital experience.</p>
+      </div>
+    </div>
+    <div className="services">
+    
+      <div className="graphics">
+        <h2>Internet Servies</h2>
+        <p>Stay connected with our reliable, fast, and uninterupted internet services, perfect for work, entertainment, or staying in touch with loved ones.</p>
+      </div>
+      <div className="grap-p">
+        <img src="/images/8445962.png" alt="graphic icon" className="graphic" />
+      </div>
+    </div>
     </>
   );
 };
