@@ -1,3 +1,10 @@
+.body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
 .home-container {
  background-image: url(/images/modif.jpg);
   background-size: contain;
@@ -81,9 +88,9 @@
   }
 
   .circle-image {
-    width: 281px;
+    width: 70%;
     padding-left: 1.1rem;
-    height: 200px;
+    height: 80%;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -305,11 +312,11 @@ text-align: center;
 /*Reserve space for me */
 .boo {
   display: flex;
-  width: 310px;
+  width: 300px;
   text-align: center;
   border: solid #3d348b;
   margin-top: 20px;
-  border-left-color:#009b1f ;
+  border-top-color:#f35b04 ;
   border-right-color: #f35b04;
   font-size: 1.2rem;
   margin-left: 2.6rem;

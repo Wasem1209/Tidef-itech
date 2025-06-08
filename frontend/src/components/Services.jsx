@@ -34,7 +34,7 @@ const Services = () => {
     <div className="services">
       <div className="graphics">
         <h2>Cyber Cafe</h2>
-        <p>Get high-speed internet access and immersive gaming experiences at our state-of-the-art cyber cafe, perfet for work, play, or socializing friends.</p>
+        <p>Get high-speed internet access and services as both your online and offline activities becomes more easier.</p>
       </div>
       <div className="grap-p">
         <img src="/images/4661316.png" alt="graphic icon" className="graphic" />
@@ -77,6 +77,15 @@ const Services = () => {
       </div>
       <div className="grap-p">
         <img src="/images/8445962.png" alt="graphic icon" className="graphic" />
+      </div>
+    </div>
+    <div className="services">
+      <div className="grap-p">
+        <img src="/images/8976488.png" alt="" className="graphic" />
+      </div>
+      <div className="graphics">
+        <h2>Consultation</h2>
+        <p>Get expert advice and personalized solutions with our consultation services, design to help you navigate challenges and achieve your goals with confidence and clarity.</p>
       </div>
     </div>
     </>

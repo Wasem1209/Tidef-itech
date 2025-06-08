@@ -83,7 +83,7 @@ const App = () => {
     <FaLinkedinIn />
     
   </a>
-  <a href="" target="_blank" rel="noopener noreferrer" className="social-circle whatsapp">
+  <a href="https://wa.me/2349027772815" target="_blank" rel="noopener noreferrer" className="social-circle whatsapp">
     <FaWhatsapp />
   </a>
 </div>
