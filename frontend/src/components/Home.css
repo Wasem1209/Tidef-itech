@@ -1,14 +1,3 @@
-.body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-}
-
-
-.home-con{
-  max-width: 100%;
-}
 .home-container {
  background-image: url(/images/modif.jpg);
   background-size: contain;
@@ -16,10 +5,7 @@
   background-position: center;
   }
 
-  
-
-
-  .hero-content {
+.hero-content {
     margin-top: 50px;
     color: rgb(235, 238, 239);
     text-align: center;

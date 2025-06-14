@@ -1,8 +1,8 @@
-body {
+.html,body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    
+    overflow-x: hidden;
+    box-sizing: border-box;
   }
   
   header {
@@ -269,14 +269,14 @@ justify-content: space-between;
 
   .boo {
     display: flex;
-    width: 310px;
+    width: 300px;
     text-align: center;
     border: solid #3d348b;
     margin-top: 20px;
     border-left-color:#009b1f ;
     border-right-color: #f35b04;
     font-size: 1.2rem;
-    margin-left: 253px;
+    margin-left: 2.4rem;
     border-radius: 5px;
     background-color: #f9f8fd;
     color: #000;
