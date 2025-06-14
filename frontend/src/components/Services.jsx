@@ -3,7 +3,7 @@ import "./Services.css";
 
 const Services = () => {
   return(
-    <div className=".serv-containe">
+    <>
     <section className="our-serv">
       <h4 className="serv">Our services</h4>
       <p>Get the most and best of our services, we ensure our customer's satisfactions as it is priorities, not just that, the time rate at which we deliver our services is superb!</p>
@@ -88,7 +88,7 @@ const Services = () => {
         <p>Get expert advice and personalized solutions with our consultation services, design to help you navigate challenges and achieve your goals with confidence and clarity.</p>
       </div>
     </div>
-    </div>
+    </>
   );
 };
 
