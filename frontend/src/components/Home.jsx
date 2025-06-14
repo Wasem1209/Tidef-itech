@@ -24,7 +24,7 @@ const items = [
 import "./Home.css";
 const Home = () => {
   return (
-    <>
+    <div className="home-con">
     <section className="section-we>">
       <h1 className="h1"><em>Welcome to Tidef iTech!</em></h1>
       <p><strong><em>Tidef I-Tech Solution</em></strong> is a planned technology company that is anticipated to serve individuals and organizations with Information Technology services, digital skills and modern digital innovation.</p>
@@ -146,7 +146,7 @@ const Home = () => {
         <Link to="https://www.linkedin.com/in/tidef-itech-6877b1362/?trk=flagship3_open_to_hiring_creation_upsell&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B1eY4yYMAQ5eQiBHmDkUGQw%3D%3D"><button className=" boo">Reserve Space for Me</button></Link>
        
         </section>
-    </>
+    </div>
   );
 };
 

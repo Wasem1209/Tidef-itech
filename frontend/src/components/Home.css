@@ -5,6 +5,10 @@
   overflow-x: hidden;
 }
 
+
+.home-con{
+  max-width: 100%;
+}
 .home-container {
  background-image: url(/images/modif.jpg);
   background-size: contain;
@@ -14,14 +18,7 @@
 
   
 
-@media (max-width: 768px) {
-  .home-container{
-    background-image: url(/images/modif.jpg);
-  background-size: 810px;
-  background-repeat: no-repeat;
-  background-position: center;
-  }
-}
+
   .hero-content {
     margin-top: 50px;
     color: rgb(235, 238, 239);
@@ -97,17 +94,7 @@
     object-fit: cover;
   }
 
-  @media (max-device-width: 768px) {
-    .circle-image {
-      width: 200px;
-      padding-left: 10px;
-      height: 200px;
-      border-radius: 50%;
-      overflow: hidden;
-      display: flex;
-      object-fit: cover;
-    }
-  }
+  
 
   .tec {
     display: flex;
@@ -160,14 +147,7 @@
     
   }
 
-  @media (min-width: 768px) {
-    .known {
-      color: #000;
-      padding-top: 30px;
-    text-align: center;
-    }
-  }
-  
+ 
   .trend {
     display: flex;
     justify-content: center;
@@ -242,13 +222,7 @@
   margin-left: 30%;
  }
 
- @media (max-width: 768px) {
-  .features{
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.6rem;
-  }
- }
+ 
 
  /* Support */
  .support {
@@ -327,24 +301,7 @@ text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-@media (min-width: 768px) {
-  .boo {
-    display: flex;
-    width: 310px;
-    text-align: center;
-    border: solid #3d348b;
-    margin-top: 20px;
-    border-left-color:#009b1f ;
-    border-right-color: #f35b04;
-    font-size: 1.2rem;
-    margin-left: 253px;
-    border-radius: 5px;
-    background-color: #f9f8fd;
-    color: #000;
-    padding-left: 50px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-}
+
 
 .boo:hover {
  transform: translateY(15px); 
